@@ -19,7 +19,7 @@ import javax.swing.JOptionPane;
 public class Conection {
     private static Connection conect;
     final static String user = "root";
-    final static String pass = "05226.Eslover";
+    final static String pass = "admin";
     final static String url = "jdbc:mysql://localhost:3306/greenlightdb"+"?serverTimeZone = UTC"+"&useSSL=false";
     
     public static void conectar(){
